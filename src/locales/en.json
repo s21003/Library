@@ -1,0 +1,205 @@
+{
+	"main-page": {
+		"content": "Main Page",
+		"text": "Public library invites readers"
+	},
+	"nav": {
+		"main-page": "Main page",
+		"czytelniks": "Readers",
+		"ksiazki": "Books",
+		"wypozyczenia": "Rentals"
+	},
+	"delete":{
+		"yes":"Yes",
+		"no":"No"
+	},
+    "list": {
+       "actions": {
+         "title": "Actions",
+         "details": "Details",
+         "edit": "Edit",
+         "delete": "Delete"
+       }
+    },
+    "form": {
+		"chars": "characters",
+       	"actions": {
+        	"return": "Return",
+        	"edit": "Edit",
+    		"cancel": "Cancel",
+			"add": "Add",
+			"login": "Login"
+    	},
+		"error": "Error"
+    },
+	"czyt": {
+		"fields": {
+			"imie": "First name",
+			"nazwisko": "Last name",
+            "adres": "Adress",
+			"login": "Login",
+			"password": "Password"
+		},
+		"list": {
+			"title": "Readers",
+			"addNew": "Add new reader",
+			"noData": "No readers in database",
+			"pageTitle": "List of readers",
+			"loading": "loading readers' data..."
+		},
+		"form": {
+			"select": "Select reader",
+			"wypozyczenie": "History of rentals",
+			"add": {
+				"pageTitle": "Adding a new reader",
+				"btnLabel": "Add the reader",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The new reader has been successfully created"
+				}
+			},
+			"edit": {
+				"pageTitle": "Editing a reader",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The reader has been successfully updated"
+				}
+			}
+        },
+		"details": {
+			"pageTitle": "Reader's details",
+			"wypozyczenia": "History of rentals",
+			"loading": "Loading reader's data",
+			"title": "Book's title",
+			"dateFrom": "Date of rent",
+			"dateTo": "Date of return"
+		},
+		"delete": {
+			"confirm": {
+				"text":"Are you sure you want to delete reader?"
+			}
+		}
+    },
+	"ksi": {
+		"fields": {
+			"tytul": "Title",
+			"rokWydania": "Year of publication",
+            "kategoria": "Category",
+			"wydawnictwo": "Publisher",
+			"imieAutor": "Autor's name",
+            "nazwiskoAutor": "Autor's surname"
+		},
+		"list": {
+			"title": "Books",
+			"addNew": "Add new book",
+			"noData": "No books in database",
+			"pageTitle": "List of books",
+			"loading": "Loading books' data..."
+		},
+		"form": {
+			"select": "Select book",
+			"wypozyczenie": "History of rentals",
+			"year": "Year",
+			"add": {
+				"pageTitle": "Adding a new book",
+				"btnLabel": "Add the book",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The new book has been successfully created"
+				}
+			},
+			"edit": {
+				"pageTitle": "Editing a book",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The book has been successfully updated"
+				}
+			}
+		},
+		"details": {
+			"pageTitle": "Book's details",
+			"wypozyczenia": "History of rentals",
+			"loading": "Loading book's data",
+			"imie": "Reader's name",
+			"nazwisko": "Reader's surname",
+			"dateFrom": "Date of rent",
+			"dateTo": "Date of return"
+		},
+		"delete": {
+			"confirm": {
+				"text":"Are you sure you want to delete book?"
+			}
+		}
+	},
+	"wyp": {
+		"fields": {
+			"czytelnik_id": "Card no",
+			"ksiazka_id": "Book id",
+            "dataWypozyczenia": "Date of rent",
+			"dataOddania": "Date of return",
+			"selectTextKsi": "Choose book",
+			"selectTextCzyt": "Choose reader"
+		},
+		"list": {
+			"title": "Rentals",
+			"addNew": "Add new rent",
+			"noData": "No rentals in database",
+			"pageTitle": "List of rentals",
+			"loading" : "Loading renatls' data..."
+		},
+		"form": {
+			"add": {
+				"pageTitle": "Adding a new rental",
+				"btnLabel": "Add the rental",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The rental has been successfully created"
+				}
+			},
+			"edit": {
+				"pageTitle": "Editing a rental",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Confirmation",
+					"text": "The rental has been successfully updated"
+				}
+			}
+		},
+		"details": {
+			"pageTitle": "Rental's details",
+			"loading": "Loading rental's data",
+			"imie": "Reader's name",
+			"nazwisko": "Reader's surname",
+			"title": "Book's title",
+			"dateFrom": "Date of rent",
+			"dateTo": "Date of return"
+		},
+		"delete": {
+			"confirm": {
+				"text":"Are you sure you want to delete rental?"
+			}
+		}
+	},
+	"validation": {
+		"messages": {
+			"notEmpty": "The field is required",
+			"len_2_20": "The field should contain from 2 to 20 characters",
+			"len_2_60": "The field should contain from 2 to 60 characters",
+			"len_2_80": "The field should contain from 2 to 80 characters",
+			"len_2_120": "The field should contain from 2 to 120 characters",
+			"formErrors": "The form contains errors",
+			"num": "The field should contain year",
+			"date": "The field should contain date",
+			"dateAfter": "The field cannot contain date from future"
+		}
+	},
+	"auth": {
+		"pageTitle": "Log in",
+		"logout": "Log out"
+	},
+	"login": {
+		"submit":"log in"
+	}
+}
